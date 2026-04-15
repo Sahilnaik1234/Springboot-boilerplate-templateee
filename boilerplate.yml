@@ -1,0 +1,12 @@
+variables:
+  - name: app_name
+  - name: port
+
+template_files:
+  - "**/*.tmpl"
+
+output_files:
+  pom.xml.tmpl: pom.xml
+  src/main/java/com/example/Application.java.tmpl: src/main/java/com/example/Application.java
+  src/main/java/com/example/controller/HelloController.java.tmpl: src/main/java/com/example/controller/HelloController.java
+  src/main/resources/application.yml.tmpl: src/main/resources/application.yml

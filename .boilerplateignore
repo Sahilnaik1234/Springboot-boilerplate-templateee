@@ -1,0 +1,5 @@
+ignore_files:
+  - .git/**
+  - target/**
+  - *.log
+  - *.class

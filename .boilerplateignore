@@ -4,3 +4,4 @@ ignore_files:
   - *.log
   - *.class
   - .git
+  - .boilerplateignore
